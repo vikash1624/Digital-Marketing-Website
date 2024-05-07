@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON-SECTION */
+.common-h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 45px;
+}
+
+.common-p1 {
+  font-family: sans-serif;
+}
+
+/* NAVBAR */
+
+/* SECTION-1 */
+
+.section-1 {
+  height: 90vh;
+  background-color: black;
+  position: relative;
+}
+.section1-h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.video1 {
+  width: 30rem;
+  border-radius: 2rem;
+}
+.container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(50, 50, 236);
+}
+
+.custom-shape-divider-bottom-1700196638 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700196638 svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 180px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1700196638 .shape-fill {
+  fill: #ffffff;
+}
+
+.card-box:hover {
+  box-shadow: rgb(185, 35, 35) 0 8px 24px;
+}
+
+/* SECTION-2 */
+
+.card-box:hover {
+  box-shadow: rgb(185, 35, 35) 0 8px 24px;
+}
+
+.fa-circle-arrow-right {
+  font-size: 35px;
+}
+
+/* SECTION-3 */
+
+.figure {
+  width: 28rem;
+  border-radius: 2rem;
+}
+.section-3 {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.6),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url(images/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 450px;
+  padding-top: 50px;
+}
+/* SECTION-4 */
+
+/* SECTION-5 */
+.btn-sm {
+  width: 100px;
+}
+/* SECTION-6 */
+
+/* SECTION-7 */
+.custom-shape-divider-top-1700418508 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1700418508 svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 107px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1700418508 .shape-fill {
+  fill: #ffffff;
+}
+
+.section-7 {
+  position: relative;
+}
+.contact {
+  margin-top: 6rem;
+}
+.section-7 .form-section {
+  width: 40%;
+  margin: auto;
+}
+
+/* FOOTER */
+.adjustimge {
+  width: 200px;
+  margin: auto;
+}
+.pfooter {
+  padding-left: 70px;
+  font-size: 25px;
+}
+.copywrite {
+  text-align: center;
+}
+.btn-footer {
+  width: 530px;
+}
+.footerabout {
+  margin-left: 80px;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
